@@ -1,0 +1,67 @@
+*{
+    box-sizing: 0px;
+    margin: 0px;
+}
+:root{
+    --morado-claro:#BBAACC;
+    --white:#FFFFFF;
+}
+body{
+    font-family: "Hanken Grotesk", sans-serif;
+}
+.card{
+    margin: auto;
+    background: linear-gradient(0deg, #2E2BE9 0%, #6340FC 98%);
+    width: 367px;
+    height: 512px;
+    border-radius: 30px 0px 0px 30px; 
+}
+.card__content{
+    display: inline-flex;
+    padding: 36px 58px 58px 58px;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+.card__title{
+    color: var(--morado-claro);
+    font-size: 24px;
+    font-weight: 500;
+}
+.card__percentage{
+    height: 201px;
+    border-radius: 50%;
+    background: linear-gradient(180.14deg, rgba(78, 33, 202, 0.670665) 10.6%, rgba(36, 33, 202, 0.487259) 57.98%, rgba(78, 33, 202, 0) 99.88%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 201px;
+
+}
+.principal__number{
+    color: var(--white);
+    font-weight: 900;
+    font-size: 74px;
+    text-align: center;
+    
+}
+.second__number{
+    color: rgba(255, 255, 255, 0.43);
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0px;
+}
+
+.card__hero{
+    color: var(--white) ;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+}
+.paragraph{
+    color: var(--white);
+    font-weight: 400;
+    text-align: center;
+    font-size: 18px;
+}
